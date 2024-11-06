@@ -8,8 +8,7 @@ function verify() {
         result = 1/(A**2) + 4*A + 5;
     }
     
-    document.getElementsByName('result')[0].value = result;
-    result = parseInt(result);
+    document.getElementsByName('result')[0].value = parseInt(result);
 }
 
 const elementVerify = document.getElementById("verify");
